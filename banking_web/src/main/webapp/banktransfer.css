@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #1a1a1a; /* Slightly lighter black for the container background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5); /* Orange shadow */
+    width: 100%;
+    max-width: 400px; /* Set a maximum width for the container */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #FFA500; /* Orange color for labels */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #FFA500; /* Orange border */
+    border-radius: 5px;
+    background-color: #333333; /* Dark gray input background */
+    color: #FFFFFF; /* White text in input fields */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFA500; /* Orange button */
+    border: none;
+    border-radius: 5px;
+    color: #000000; /* Black text on button */
+    font-size: 16px;
+    cursor: pointer;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+button:hover {
+    background-color: #cc8400; /* Darker orange on hover */
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFFFFF; /* White text */
+    background-color: #000000; /* Black background */
+    border: solid 1px #000000; /* Black border */
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+a:hover {
+    background-color: #333333; /* Dark gray on hover */
+}
+
+#message {
+    margin-top: 20px;
+}

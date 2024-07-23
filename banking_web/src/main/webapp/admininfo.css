@@ -1,0 +1,98 @@
+/* customerdash.css */
+body {
+    background-color: gray;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.top-dock {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.top-dock span {
+    font-size: 18px;
+}
+
+.top-dock form button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.top-dock form button:hover {
+    background-color: darkorange;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center; /* Center the contents horizontally */
+}
+
+form {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px; /* Set a maximum width */
+    width: 100%; /* Full width of the container but constrained by max-width */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+form label {
+    margin: 0;
+}
+
+form input, form select {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black; /* Ensure text is readable on white background */
+    background-color: white; /* White background for inputs */
+}
+
+form input[type="submit"], form button {
+    background-color: orange;
+    color: black; /* Ensure text is readable */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover, form button:hover {
+    background-color: darkorange;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

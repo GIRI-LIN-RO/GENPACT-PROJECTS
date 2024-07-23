@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* customerTable.css */
+
+body {
+    background-color: grey;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.title button {
+    background-color: orange;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.title button:hover {
+    background-color: darkorange;
+}
+
+.title h1 {
+    margin: 0;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid black;
+    margin: 10px 0;
+}
+
+.tab {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: orange;
+    color: black;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    .title {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title button {
+        margin-bottom: 10px;
+    }
+}

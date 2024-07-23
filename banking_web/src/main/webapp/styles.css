@@ -1,0 +1,71 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #333333; /* Dark gray container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 400px; /* Maximum width for the container */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #FFA500; /* Orange text for labels */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 22px); /* Ensure input fits within the container */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    background-color: #222222;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #FFA500; /* Orange button */
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #FF8C00; /* Darker orange on hover */
+}
+
+a {
+    color: #FFA500; /* Orange links */
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#message span {
+    display: block;
+    margin-top: 10px;
+}

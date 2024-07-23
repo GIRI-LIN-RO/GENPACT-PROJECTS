@@ -1,0 +1,36 @@
+
+/* index.css */
+body {
+    background-color: black; /* Background color for the entire page */
+    color: white; /* Default text color */
+    font-family: Arial, sans-serif; /* Font family for the text */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+h1 {
+    color: white; /* Text color for the heading */
+    font-size: 36px; /* Font size for the heading */
+    margin: 20px; /* Margin around the heading */
+}
+
+button {
+    background-color: orange; /* Button background color */
+    color: black; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding inside the button */
+    cursor: pointer; /* Change cursor to pointer */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition */
+    font-size: 16px; /* Font size for the button text */
+    margin-top: 20px; /* Space above the button */
+}
+
+button:hover {
+    background-color: darkorange; /* Button background color on hover */
+}
