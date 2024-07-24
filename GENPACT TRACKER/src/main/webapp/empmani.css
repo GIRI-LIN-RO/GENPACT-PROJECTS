@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bgblue.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container, .form-cont {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+h1, h2 {
+    color: #64b5f6; /* Light blue */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Dark gray */
+}
+
+input[type="text"], input[type="number"], select {
+    width: calc(100% - 22px); /* Full width minus padding */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button, input[type="submit"], input[type="reset"] {
+    background-color: #42a5f5; /* Blue */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #1e88e5; /* Darker blue */
+}
+
+.dash {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #42a5f5; /* Blue */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.dash:hover {
+    background-color: #1e88e5; /* Darker blue */
+}
+
+p {
+    color: red;
+}
